@@ -1,4 +1,4 @@
-FROM node:16-stretch
+FROM node:17-stretch
 
 ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
 ENV PATH=$PATH:/home/node/.npm-global/bin
